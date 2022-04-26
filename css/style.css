@@ -237,6 +237,10 @@ nav ul li a {
         max-width: 40%;
         max-height: 40%;
     }
+    .banjoKazoie{
+        max-width: 470px;
+        max-height: 470px;
+    }
   }
   
   /* responsible culmunas encimadas! */
@@ -247,6 +251,19 @@ nav ul li a {
     }
   }
 
+.banjoKazoie {
+    transform: scale(1);
+	animation: pulse 2s infinite;
+}
+
+  @keyframes banjoKazoie {
+    0% {
+        transform: scale(.5);
+    }
+    100% {
+        transform: scale(2.0);
+    }
+}
 
 img:hover {
     transform: scale(1.15);
