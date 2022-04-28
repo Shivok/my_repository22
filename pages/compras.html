@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
       <div class="container">
@@ -24,13 +26,43 @@
                               <li><a href="./galeria.html">galeria</a></li>
                               <li><a href="./contacto.html">contacto</a></li>
                               <li><a href="./compras.html">compras</a></li>
-                              <li><a href="#">sobre nosotros</a></li>
+                              <li><a href="#">sobre nosotros</a>
+                                    <div class="offcanvas offcanvas-start" id="demo">
+                                          <div class="offcanvas-header">
+                                            <h1 class="offcanvas-title">Sobre Nosotros</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                                          </div>
+                                          <div class="offcanvas-body">
+                                            <p>Entiendo Como Funciona</p>
+                                            <p>Pero no lo suficientemente bien</p>
+                                            <p>Voy a reemplazar el "Sobre nosotros de cada pagina por este deplegable</p>                                           
+                                            <button class="btn btn-secondary" type="button">A la galeria</button>
+                                          </div>
+                                        </div>
+                                        <div class="container-fluid mt-3">
+                                          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                                            Sobre Nosotros
+                                          </button>
+                                        </div>
+                              </li>
                         </ul>
                   </div>
             </nav>
+<<<<<<< HEAD
       </div>
       <div id="banjoKazooie" class="animationBag">
             <p>​<img src="../assets/img/banjoKazooie.png"></p>
         </div>
+=======
+            <div class="container mt-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">TouchMe!</button>
+                  <div id="demo" class="collapse">
+                    
+                        EN CONTRUCCION
+                    Tengo que ver como customizar Forma Color Posicion del button!
+                        
+                  </div>
+                </div>
+>>>>>>> animation
 </body>
 </html>
